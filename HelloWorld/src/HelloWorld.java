@@ -23,6 +23,7 @@ public class HelloWorld {
         	String userEntry = br.readLine();
 	        HelloUser newUser = new HelloUser(userEntry);
 	        newUser.greetUser();
+	        System.out.println("Depp!");
 		} catch (IOException e) {
 			e.printStackTrace();
 		}
